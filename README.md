@@ -48,7 +48,9 @@ Advanced configuration
 
 - `opt/maxVol`, the maximum volume that users can define
 - `opt/discordPlayer`, options used by discord-player
+- `opt/playerinitopt`, bot configuration like bot should leave on queue end or not 
 
+ To make bot stay 24/7 add `leaveOnEnd: false` in `opt/playerinitopt`
 ### 📑 Installation
 
 To use the project correctly you will need some tools.

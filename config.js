@@ -2,7 +2,7 @@ module.exports = {
     app: {
         px: 'XXX',
         token: 'XXX',
-        playing: 'by Zerio ❤️',
+        playing: 'by Zerio ❤️'
     },
 
     opt: {
@@ -12,6 +12,13 @@ module.exports = {
             commands: ['back', 'clear', 'filter', 'loop', 'pause', 'resume', 'seek', 'shuffle', 'skip', 'stop', 'volume']
         },
         maxVol: 100,
-        discordPlayer: {}
+        discordPlayer: {},
+        playerinitopt:{
+            // leaveOnEnd: true,
+            // leaveOnStop: true,
+            // leaveOnEmpty: true,
+            // leaveOnEmptyCooldown: 1000,
+            // autoSelfDeaf: true
+        }
     }
 };
